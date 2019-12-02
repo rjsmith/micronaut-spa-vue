@@ -29,3 +29,5 @@ Additionally, there is a directory named `client` which contains a VueJS single-
 ~ cd client
 ~ yarn serve
 ----
+
+Navigate to http://localhost:3000
