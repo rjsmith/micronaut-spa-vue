@@ -1,0 +1,12 @@
+gettingStarted:
+  title: Getting Started
+  requirements: What you will need
+  solution: Solution
+writingTheApp:
+  title: Writing the Application
+  spa: Creating a Single Page App
+  gradle: Configuring Gradle
+  config: Updating Configuration
+  staticResources: Static Resources
+runningTheApp:
+  title: Running the Application
