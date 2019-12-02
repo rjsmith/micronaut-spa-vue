@@ -22,10 +22,10 @@ Exercise the controller with a simple GET request:
   Hello, Bob!
 ----
 
-Additionally, there is a directory named `client` which contains a React single-page-app. The project was generated using `create-react-app`, and has no modifications. If you have `yarn` installed and a Node.js installation of `10.x` or above, you can run the app as shown below:
+Additionally, there is a directory named `client` which contains a VueJS single-page-app. The project was generated using the Vue CLI `vue create client`, and has no modifications. If you have `yarn` installed and a Node.js installation of `10.x` or above, you can run the app as shown below:
 
 [source,bash]
 ----
 ~ cd client
-~ yarn start
+~ yarn serve
 ----

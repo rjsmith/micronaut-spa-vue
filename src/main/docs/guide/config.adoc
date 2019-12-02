@@ -1,4 +1,4 @@
-In order for the React app to make requests to the Micronaut server, we need to enable CORS support in the Micronaut configuration. Add the following snippet to `application.yml:
+In order for the VueJS app to make requests to the Micronaut server, we need to enable CORS support in the Micronaut configuration. Add the following snippet to `application.yml:
 
 [source,yml]
 .server/src/main/resources/application.yml
