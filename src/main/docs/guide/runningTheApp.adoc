@@ -6,15 +6,15 @@ The `server` application can be started from the top-level directory with the `s
 ~ ./gradlew server:run
 ----
 
-The `client` React app can be started either with `yarn start` or with the `client:start` task.
+The `client` React app can be started either with `yarn serve` or with the `client:serve` task.
 
-.Running the React app
+.Running the VueJS app
 [source, bash]
 ----
-~ ./gradlew client:start
+~ ./gradlew client:serve
 ----
 
-Browse to `http://localhost:3000`, and you should see the React app. Enter a name into the form and click "Submit" - you should see the message returned from the server.
+Browse to `http://localhost:3000`, and you should see the VueJS app. Enter a name into the form and click "Submit" - you should see the message returned from the server.
 
 == Building an Executable JAR
 
@@ -35,6 +35,6 @@ To run the application, use the `java -jar` command:
 INFO  io.micronaut.runtime.Micronaut - Startup completed in 1365ms. Server Running: http://localhost:8080
 ----
 
-Browse to `http://localhost:8080`, and you should see the React app. Enter a name into the form and click "Submit" - you should see the message returned from the server.
+Browse to `http://localhost:8080`, and you should see the VueJS app. Enter a name into the form and click "Submit" - you should see the message returned from the server.
 
-image::reactmicronaut.gif[]
+image::vuemicronaut.gif[]

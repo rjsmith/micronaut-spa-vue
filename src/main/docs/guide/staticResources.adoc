@@ -1,4 +1,4 @@
-In order to serve the React single-page-app from the running Micronaut server, we need to configure the server to handle static resources. When the React app is built using `yarn build`, a set of HTML and JavaScript files are created that contain all of the resources needed to run the single-page-app.
+In order to serve the VueJS single-page-app from the running Micronaut server, we need to configure the server to handle static resources. When the VueJS app is built using `yarn build`, a set of HTML and JavaScript files are created that contain all of the resources needed to run the single-page-app.
 
 [source,yml]
 .server/src/main/resources/application.yml

@@ -1,15 +1,25 @@
-Within the `client` directory, edit the file `src/App.js` as shown below:
+Within the `client` directory, edit the file `src/App.vue` as shown below:
 
-.client/src/App.js
+.client/src/App.vue
 [source,javascript]
 ----
-include::{sourceDir}/client/src/App.js[indent=0]
+include::{sourceDir}/client/src/App.vue[indent=0]
 ----
-<1> Define some initial state
-<2> Method to update the `name` property
-<3> Method to make a request to the server to retrieve the "Hello" message
-<4> Form to accept the user's name
-<5> Conditionally display message from the server
+<1> Add `Micronaut` component to template
+<2> Import `Micronaut` component
+<3> Declare `Micronaut` component
+
+Now create a `Micronaut.vue` file in the `client/src/components` folder as shown below:
+
+.client/src/components/Micronaut.vue
+[source,javascript]
+----
+include::{sourceDir}/client/src/components/Micronaut.vue[indent=0]
+----
+<1> Form to accept the user's name
+<2> Conditionally display message from the server
+<3> Define some initial state
+<4> Method to make a request to the server to retrieve the "Hello" message and reactively update the `message` data property 
 
 The `SERVER_URL` variable used in the above component needs to be defined in a configuration file. Create the file `config.js` within the `client/src` directory, and add the following content:
 
