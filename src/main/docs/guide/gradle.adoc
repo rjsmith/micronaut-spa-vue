@@ -36,7 +36,7 @@ Another option is to copy the wrapper scripts from the `server` directory to the
 ----
 ~ cp server/gradlew .
 ~ cp server/gradlew.bat .
-~ cp -r server/gradle/ .
+~ cp -r server/gradle .
 ----
 
 TIP: Make sure to run the `cp` commands at the same directory level as the `client` and `server` directories
